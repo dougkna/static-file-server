@@ -22,30 +22,39 @@
                     <div class="navbar-header">
 
                     </div>
-<!--                     <h4>
-                        <a href="../<%= GoBack %>">Go Back</a>
-                    </h4> -->
+
 
                 </div>
             </nav>
             <div class="container containerOne">
                  <div class="row">
                     <div class="col-lg-12 textOne">
-                        <h1>Find your files</h1>
+                        <h3>Find your files</h3>
                         <p>Browse through your public folders.</p>
                     </div>
                  </div>
             </div>
-
-            <li class='confirm'>
-                <button type="button" class="btn btn-default file1" aria-label="Left Align">Public Folder
-                    <span class="glyphicon glyphicon-file align-left" aria-hidden="true"></span>
-                </button>
-                
-                <ul class='list'>
- 
-                </ul>
-            </li>
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class='confirm'>
+                        <h5 class="start" id='start' aria-label="Left Align">Public Folder
+                            <span class="glyphicon glyphicon-folder-close align-left" aria-hidden="true"></span>
+                        </h5>
+                        <div class='goBackHere'></div>
+                        <!-- <h5><a class='goBack'> <== Go Back</a></h5> -->
+                        
+                        <li class='list' id='list'>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                    <h5 class="start" id='start' aria-label="Left Align">Displaying Center
+                        <span class="glyphicon glyphicon-file align-left" aria-hidden="true"></span>
+                    </h5>
+                    <div class="display">
+                    </div>
+                </div>
+            </div>
 
 
             <!--
